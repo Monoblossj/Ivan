@@ -1,271 +1,271 @@
 /* Estilos Generales */
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Arial', 'Helvetica', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', 'Helvetica', sans-serif;
 }
 
 /* Colores de Bootstrap */
 .bg-pink {
-    background-color: #ffb3c1;
+  background-color: #ffb3c1;
 }
 
 /* Barra de Navegación Principal */
 .bg-custom {
-    background-color: #ff6f91 !important; /* Color de fondo personalizado rosado */
+  background-color: #ff6f91 !important; /* Color de fondo personalizado rosado */
 }
 
 .navbar-light.bg-custom .navbar-nav .nav-link {
-    color: #ffffff !important; /* Color del texto de los enlaces en la navegación principal */
+  color: #ffffff !important; /* Color del texto de los enlaces en la navegación principal */
 }
 
 .navbar-light.bg-custom .navbar-nav .nav-link.active {
-    color: #ffb3c1 !important; /* Color del texto para el enlace activo */
-    background-color: #ff6f91 !important; /* Color de fondo para el enlace activo */
+  color: #ffb3c1 !important; /* Color del texto para el enlace activo */
+  background-color: #ff6f91 !important; /* Color de fondo para el enlace activo */
 }
 
 .navbar-light.bg-custom .navbar-nav .nav-link:hover {
-    color: #ffb3c1 !important; /* Color del texto al pasar el ratón sobre el enlace */
-    background-color: #ff6f91 !important; /* Color de fondo al pasar el ratón sobre el enlace */
+  color: #ffb3c1 !important; /* Color del texto al pasar el ratón sobre el enlace */
+  background-color: #ff6f91 !important; /* Color de fondo al pasar el ratón sobre el enlace */
 }
 
 /* Barra de Navegación Secundaria */
 .bg-light {
-    background-color: #0277bd !important; /* Color de fondo azul para la navegación secundaria */
+  background-color: #0277bd !important; /* Color de fondo azul para la navegación secundaria */
 }
 
 .bg-light .navbar-nav .nav-link {
-    color: #ffffff !important; /* Texto blanco para buen contraste con el fondo */
-    padding: 14px 16px;
-    font-size: 17px;
+  color: #ffffff !important; /* Texto blanco para buen contraste con el fondo */
+  padding: 14px 16px;
+  font-size: 17px;
 }
 
 .bg-light .navbar-nav .nav-link:hover {
-    background-color: #01579b !important; /* Color más oscuro para hover */
-    color: #ffffff !important; /* Texto blanco para hover */
+  background-color: #01579b !important; /* Color más oscuro para hover */
+  color: #ffffff !important; /* Texto blanco para hover */
 }
 
 .bg-light .navbar-nav .nav-link.active {
-    background-color: #004c8c !important; /* Color de fondo más oscuro para el estado activo */
-    color: #ffffff !important; /* Texto blanco para el estado activo */
+  background-color: #004c8c !important; /* Color de fondo más oscuro para el estado activo */
+  color: #ffffff !important; /* Texto blanco para el estado activo */
 }
 
 /* Estilos de la Barra de Búsqueda */
 .search-bar {
-    width: 100% !important; /* Usa todo el ancho disponible del contenedor padre */
-    max-width: 600px !important; /* Ajusta el ancho máximo según sea necesario */
-    height: 50px !important; /* Aumenta la altura para mayor visibilidad */
-    font-size: 18px !important; /* Aumenta el tamaño de la fuente */
-    padding: 12px !important; /* Aumenta el relleno interno */
-    margin: 10px 0 !important; /* Ajusta el margen para el espaciado vertical */
+  width: 100% !important; /* Usa todo el ancho disponible del contenedor padre */
+  max-width: 600px !important; /* Ajusta el ancho máximo según sea necesario */
+  height: 50px !important; /* Aumenta la altura para mayor visibilidad */
+  font-size: 18px !important; /* Aumenta el tamaño de la fuente */
+  padding: 12px !important; /* Aumenta el relleno interno */
+  margin: 10px 0 !important; /* Ajusta el margen para el espaciado vertical */
 }
 
 /* Diseño de Columnas y Filas */
 .row {
-    margin: 0 -15px;
+  margin: 0 -15px;
 }
 
 .col-md-3 {
-    padding: 0 15px;
+  padding: 0 15px;
 }
 
 /* Estilos de Carta */
 .carta {
-    padding: 16px;
-    margin: 10px;
-    color: #333; 
-    text-align: center;
-    background-color: #ffffff;
-    border: 1px solid #ddd; 
-    border-radius: 8px; /* Bordes redondeados */
+  padding: 16px;
+  margin: 10px;
+  color: #333; 
+  text-align: center;
+  background-color: #ffffff;
+  border: 1px solid #ddd; 
+  border-radius: 8px; /* Bordes redondeados */
 }
 
 .producto {
-    max-width: 100%; /* Permite que la imagen mantenga su proporción */
-    height: auto; /* Mantiene la proporción de la imagen */
+  max-width: 100%; /* Permite que la imagen mantenga su proporción */
+  height: auto; /* Mantiene la proporción de la imagen */
 }
 
 /* Estilos de Texto */
 .titulo {
-    font-weight: bold;
-    text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 24px;
-    margin-top: 50px;
-    color: #ff6f91;
-    background-color: #ffffff; 
-    padding: 15px;
-    border-radius: 8px; /* Bordes redondeados */
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 24px;
+  margin-top: 50px;
+  color: #ff6f91;
+  background-color: #ffffff; 
+  padding: 15px;
+  border-radius: 8px; /* Bordes redondeados */
 }
 
 .main {
-    font-size: 14px;
-    color: #333; 
-    text-align: center;
-    background-color: #ffffff; 
-    padding: 30px 15px;
-    margin-bottom: 30px;
-    border-radius: 8px; /* Bordes redondeados */
+  font-size: 14px;
+  color: #333; 
+  text-align: center;
+  background-color: #ffffff; 
+  padding: 30px 15px;
+  margin-bottom: 30px;
+  border-radius: 8px; /* Bordes redondeados */
 }
 
 /* Estilos del Footer */
 .footer {
-    background-color: #ff6f91; /* Color de fondo del footer */
-    text-align: center; /* Alineación del texto en el centro */
-    padding: 20px; /* Espaciado interno del footer */
+  background-color: #ff6f91; /* Color de fondo del footer */
+  text-align: center; /* Alineación del texto en el centro */
+  padding: 20px; /* Espaciado interno del footer */
 }
 
 .footer .central {
-    font-size: 18px; /* Tamaño de la fuente para el texto central */
-    margin-bottom: 10px; /* Espacio inferior del texto central */
+  font-size: 18px; /* Tamaño de la fuente para el texto central */
+  margin-bottom: 10px; /* Espacio inferior del texto central */
 }
 
 .footer a {
-    color: #ffffff; /* Color del texto de los enlaces */
-    text-decoration: none; /* Sin subrayado en los enlaces */
+  color: #ffffff; /* Color del texto de los enlaces */
+  text-decoration: none; /* Sin subrayado en los enlaces */
 }
 
 .footer a:hover {
-    color: #ff9aab; /* Color de los enlaces al pasar el ratón sobre ellos */
+  color: #ff9aab; /* Color de los enlaces al pasar el ratón sobre ellos */
 }
 
 /* Estilos para el logo del footer */
 .footer-logo {
-    max-width: 100px; /* Tamaño máximo del logo */
-    height: auto; /* Mantiene la proporción del logo */
-    margin-bottom: 15px; /* Espacio debajo del logo */
+  max-width: 100px; /* Tamaño máximo del logo */
+  height: auto; /* Mantiene la proporción del logo */
+  margin-bottom: 15px; /* Espacio debajo del logo */
 }
 
 /* Estilos para los íconos de redes sociales */
 .social-icons {
-    margin-top: 15px; /* Espacio superior de los iconos sociales */
+  margin-top: 15px; /* Espacio superior de los iconos sociales */
 }
 
 .social-icon {
-    height: 30px; /* Altura de los íconos */
-    width: 30px; /* Ancho de los íconos */
-    transition: transform 0.3s; /* Transición suave para el efecto de transformación */
+  height: 30px; /* Altura de los íconos */
+  width: 30px; /* Ancho de los íconos */
+  transition: transform 0.3s; /* Transición suave para el efecto de transformación */
 }
 
 .social-icon:hover {
-    transform: scale(1.1); /* Aumenta el tamaño del ícono al pasar el ratón sobre él */
+  transform: scale(1.1); /* Aumenta el tamaño del ícono al pasar el ratón sobre él */
 }
 
 /* Otros Estilos */
 .prod {
-    text-align: center;
-    font-size: 30px;
-    color: #ff6f91; 
+  text-align: center;
+  font-size: 30px;
+  color: #ff6f91; 
 }
 
 .anuncio {
-    text-align: center;
-    padding-top: 30px;
-    font-size: 40px;
-    color: #ff6f91; 
+  text-align: center;
+  padding-top: 30px;
+  font-size: 40px;
+  color: #ff6f91; 
 }
 
 .flavor {
-    text-align: center;
-    padding-top: 30px;
-    font-size: 20px;
-    color: #333; 
+  text-align: center;
+  padding-top: 30px;
+  font-size: 20px;
+  color: #333; 
 }
 
 /* Estilos para la página de inicio de sesión */
 .contenedor {
-    margin: 100px auto;
-    width: 300px;
-    padding: 20px;
-    background-color: #f5f5f5; 
-    border-radius: 8px; /* Bordes redondeados */
-    border: 2px solid #2e2e2e;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  margin: 100px auto;
+  width: 300px;
+  padding: 20px;
+  background-color: #f5f5f5; 
+  border-radius: 8px; /* Bordes redondeados */
+  border: 2px solid #2e2e2e;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
 }
 
 .encabezado {
-    text-align: center;
-    margin-bottom: 20px;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .bienvenido {
-    color: #ff6f91; 
-    font-size: 24px;
+  color: #ff6f91; 
+  font-size: 24px;
 }
 
 .input {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ddd;
-    border-radius: 4px; /* Bordes redondeados */
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px; /* Bordes redondeados */
 }
 
 .acciones {
-    text-align: center;
+  text-align: center;
 }
 
 .boton {
-    background-color: #ff6f91; 
-    color: white; 
-    padding: 10px 20px;
-    border: none; /* Sin borde */
-    border-radius: 4px; /* Bordes redondeados */
-    cursor: pointer;
-    font-size: 16px;
+  background-color: #ff6f91; 
+  color: white; 
+  padding: 10px 20px;
+  border: none; /* Sin borde */
+  border-radius: 4px; /* Bordes redondeados */
+  cursor: pointer;
+  font-size: 16px;
 }
 
 .boton:hover {
-    background-color: #ff9aab; 
+  background-color: #ff9aab; 
 }
 
 .cuenta {
-    color: #333; 
+  color: #333; 
 }
 
 .registrar {
-    color: #ff6f91; 
+  color: #ff6f91; 
 }
 
 /* Media Queries */
 @media (max-width: 767px) {
-    .search-bar {
-        width: 100%; /* Barra de búsqueda a 100% de ancho en dispositivos móviles */
-    }
+  .search-bar {
+      width: 100%; /* Barra de búsqueda a 100% de ancho en dispositivos móviles */
+  }
 
-    .carta {
-        margin: 5px; /* Reduce el margen en dispositivos móviles */
-        padding: 10px; /* Reduce el relleno en dispositivos móviles */
-    }
-    
-    .navbar-nav .nav-link {
-        padding: 10px; /* Ajusta el relleno de los enlaces en pantallas pequeñas */
-    }
+  .carta {
+      margin: 5px; /* Reduce el margen en dispositivos móviles */
+      padding: 10px; /* Reduce el relleno en dispositivos móviles */
+  }
+  
+  .navbar-nav .nav-link {
+      padding: 10px; /* Ajusta el relleno de los enlaces en pantallas pequeñas */
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    .search-bar {
-        max-width: 80%; /* Ajusta el ancho máximo en tabletas */
-    }
+  .search-bar {
+      max-width: 80%; /* Ajusta el ancho máximo en tabletas */
+  }
 
-    .carta {
-        margin: 10px; /* Ajusta el margen en tabletas */
-        padding: 15px; /* Ajusta el relleno en tabletas */
-    }
-    
-    .navbar-nav .nav-link {
-        padding: 12px; /* Ajusta el relleno de los enlaces en pantallas medianas */
-    }
+  .carta {
+      margin: 10px; /* Ajusta el margen en tabletas */
+      padding: 15px; /* Ajusta el relleno en tabletas */
+  }
+  
+  .navbar-nav .nav-link {
+      padding: 12px; /* Ajusta el relleno de los enlaces en pantallas medianas */
+  }
 }
 
 @media (min-width: 992px) {
-    .search-bar {
-        max-width: 600px; /* Ajusta el ancho máximo en pantallas grandes */
-    }
+  .search-bar {
+      max-width: 600px; /* Ajusta el ancho máximo en pantallas grandes */
+  }
 
-    .carta {
-        margin: 15px; /* Ajusta el margen en pantallas grandes */
-        padding: 20px; /* Ajusta el relleno en pantallas grandes */
-    }
+  .carta {
+      margin: 15px; /* Ajusta el margen en pantallas grandes */
+      padding: 20px; /* Ajusta el relleno en pantallas grandes */
+  }
 }

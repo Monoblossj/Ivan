@@ -1,0 +1,15 @@
+// src/scss/_base.scss
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: $font-family-base;
+  }
+  
+  // Estilos generales
+  body {
+    background-color: $color-light;
+    color: $color-dark;
+  }
+  

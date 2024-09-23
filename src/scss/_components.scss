@@ -1,0 +1,218 @@
+// src/scss/_components.scss
+
+.bg-pink {
+    background-color: $color-light-pink;
+  }
+  
+  // Barra de Navegación Principal
+  .bg-custom {
+    background-color: $color-pink !important;
+  }
+  
+  .navbar-light.bg-custom .navbar-nav .nav-link {
+    color: $color-light !important;
+  }
+  
+  .navbar-light.bg-custom .navbar-nav .nav-link.active {
+    color: $color-light-pink !important;
+    background-color: $color-pink !important;
+  }
+  
+  .navbar-light.bg-custom .navbar-nav .nav-link:hover {
+    color: $color-light-pink !important;
+    background-color: $color-pink !important;
+  }
+  
+  // Barra de Navegación Secundaria
+  .bg-light {
+    background-color: $color-blue !important;
+  }
+  
+  .bg-light .navbar-nav .nav-link {
+    color: $color-light !important;
+    padding: 14px 16px;
+    font-size: 17px;
+  }
+  
+  .bg-light .navbar-nav .nav-link:hover {
+    background-color: darken($color-blue, 10%) !important;
+    color: $color-light !important;
+  }
+  
+  .bg-light .navbar-nav .nav-link.active {
+    background-color: $color-dark-blue !important;
+    color: $color-light !important;
+  }
+  
+  // Estilos de la Barra de Búsqueda
+  .search-bar {
+    width: 100% !important;
+    max-width: 600px !important;
+    height: 50px !important;
+    font-size: 18px !important;
+    padding: 12px !important;
+    margin: 10px 0 !important;
+  }
+  
+  // Diseño de Columnas y Filas
+  .row {
+    margin: 0 -15px;
+  }
+  
+  .col-md-3 {
+    padding: 0 15px;
+  }
+  
+  // Estilos de Carta
+  .carta {
+    padding: 16px;
+    margin: 10px;
+    color: $color-dark;
+    text-align: center;
+    background-color: $color-light;
+    border: 1px solid $color-gray;
+    @include border-radius(8px);
+  }
+  
+  // Estilos de Texto
+  .titulo {
+    font-weight: bold;
+    text-align: center;
+    font-family: $font-family-heading;
+    font-size: 24px;
+    margin-top: 50px;
+    color: $color-pink;
+    background-color: $color-light;
+    padding: 15px;
+    @include border-radius(8px);
+  }
+  
+  .main {
+    font-size: 14px;
+    color: $color-dark;
+    text-align: center;
+    background-color: $color-light;
+    padding: 30px 15px;
+    margin-bottom: 30px;
+    @include border-radius(8px);
+  }
+  
+  // Estilos del Footer
+  .footer {
+    background-color: $color-pink;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .footer .central {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .footer a {
+    color: $color-light;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    color: lighten($color-pink, 10%);
+  }
+  
+  // Estilos para el logo del footer
+  .footer-logo {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  
+  // Estilos para los íconos de redes sociales
+  .social-icons {
+    margin-top: 15px;
+  }
+  
+  .social-icon {
+    height: 30px;
+    width: 30px;
+    transition: transform 0.3s;
+  }
+  
+  .social-icon:hover {
+    transform: scale(1.1);
+  }
+  
+  // Otros Estilos
+  .prod {
+    text-align: center;
+    font-size: 30px;
+    color: $color-pink;
+  }
+  
+  .anuncio {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 40px;
+    color: $color-pink;
+  }
+  
+  .flavor {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+    color: $color-dark;
+  }
+  
+  // Estilos para la página de inicio de sesión
+  .contenedor {
+    margin: 100px auto;
+    width: 300px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    @include border-radius(8px);
+    border: 2px solid #2e2e2e;
+    @include box-shadow(0 2px 10px rgba(0, 0, 0, 0.1));
+  }
+  
+  .encabezado {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .bienvenido {
+    color: $color-pink;
+    font-size: 24px;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid $color-gray;
+    @include border-radius(4px);
+  }
+  
+  .acciones {
+    text-align: center;
+  }
+  
+  .boton {
+    background-color: $color-pink;
+    color: $color-light;
+    padding: 10px 20px;
+    border: none;
+    @include border-radius(4px);
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .boton:hover {
+    background-color: lighten($color-pink, 10%);
+  }
+  
+  .cuenta {
+    color: $color-dark;
+  }
+  
+  .registrar {
+    color: $color-pink;
+  }
+  

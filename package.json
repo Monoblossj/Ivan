@@ -1,0 +1,14 @@
+{
+  "name": "ivan",
+  "version": "1.0.0",
+  "description": "Proyecto para el sitio web SagastumeCreaciones.",
+  "main": "index.js",
+  "scripts": {
+  "build:scss": "sass src/scss:dist/css --watch"
+  },
+  "devDependencies": {
+    "sass": "^1.77.8"
+  },
+  "author": "Ivan Rodriguez",
+  "license": "ISC"
+}

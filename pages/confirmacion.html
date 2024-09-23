@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SagastumeCreaciones - Confirmacion</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <!-- Header con Navegación Principal -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-custom">
+            <a class="navbar-brand" href="../index.html">SagastumeCreaciones</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Portada</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../noticias.html" target="_self">Noticias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contacto.html" target="_self">Contacto</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control search-bar" type="search" placeholder="Buscar..." aria-label="Search">
+                </form>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/iniciar.html" target="_self">Iniciar sesión</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/carrito.html" target="_self">Carrito</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Contenido Principal -->
+    <main class="container my-5">
+        <h1 class="text-center">¡Gracias por tu Compra!</h1>
+        <p class="text-center">Tu pedido ha sido confirmado exitosamente. A continuación, encontrarás un resumen de tu pedido.</p>
+
+        <!-- Resumen del Pedido -->
+        <section>
+            <h2>Resumen del Pedido</h2>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">Producto</th>
+                        <th scope="col">Cantidad</th>
+                        <th scope="col">Precio</th>
+                        <th scope="col">Subtotal</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Ejemplo de productos en el pedido -->
+                    <tr>
+                        <td>Taza Blanca Lisa</td>
+                        <td>1</td>
+                        <td>$1.200</td>
+                        <td>$1.200</td>
+                    </tr>
+                    <tr>
+                        <td>Plato Blanco</td>
+                        <td>2</td>
+                        <td>$1.200</td>
+                        <td>$2.400</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th colspan="3" class="text-right">Total:</th>
+                        <th>$3.600</th>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <!-- Información del Pedido -->
+        <section class="my-5">
+            <h2>Información del Pedido</h2>
+            <p><strong>Nombre:</strong> Juan Pérez</p>
+            <p><strong>Correo Electrónico:</strong> juan.perez@example.com</p>
+            <p><strong>Teléfono:</strong> 555-1234</p>
+            <p><strong>Dirección de Envío:</strong> Calle Falsa 123, Ciudad, Estado, 12345</p>
+        </section>
+
+        <!-- Mensaje de Confirmación -->
+        <section class="text-center">
+            <p>Tu pedido será procesado y te notificaremos por correo electrónico cuando sea enviado.</p>
+            <p>Si tienes alguna pregunta, no dudes en <a href="./contacto.html">contactarnos</a>.</p>
+        </section>
+
+        <!-- Botón para Volver a la Portada -->
+        <div class="text-center">
+            <a href="../index.html" class="btn btn-primary">Volver a la Portada</a>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-pink text-center py-3">
+        <img src="../multimedia/logo.png" alt="Logo" class="footer-logo">
+        <p class="central">© 2024 SagastumeCreaciones - Todos los derechos reservados.</p>
+        <p><a href="./privacidad.html">Política de Privacidad</a> | <a href="./terminos.html">Términos y Condiciones</a></p>
+        <!-- Redes Sociales -->
+        <div class="social-icons">
+            <a href="https://www.facebook.com/people/SagastumeCreaciones/100035372996568/" target="_self">
+                <img src="../multimedia/facebook.png" alt="Facebook" class="social-icon">
+            </a>
+            <a href="https://www.instagram.com/sagastumecreaciones/?hl=es" target="_self">
+                <img src="../multimedia/instagram.png" alt="Instagram" class="social-icon">
+            </a>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
